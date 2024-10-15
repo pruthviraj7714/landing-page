@@ -76,7 +76,7 @@ export default function TestimonialsSection() {
                         className="rounded-full h-24 w-24 object-contain mb-4"
                       />
                       <blockquote className="text-center mb-4">
-                        "{testimonial.quote}"
+                        &quot;{testimonial.quote}&quot;
                       </blockquote>
                       <div className="text-center">
                         <p className="font-semibold">{testimonial.name}</p>
